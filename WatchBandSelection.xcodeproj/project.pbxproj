@@ -8,14 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		AFAFFA862B94A9E4006881EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAFFA852B94A9E4006881EC /* AppDelegate.swift */; };
-		AFAFFA882B94A9E4006881EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAFFA872B94A9E4006881EC /* SceneDelegate.swift */; };
-		AFAFFA8A2B94A9E4006881EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAFFA892B94A9E4006881EC /* ViewController.swift */; };
-		AFAFFA8D2B94A9E4006881EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAFFA8B2B94A9E4006881EC /* Main.storyboard */; };
 		AFAFFA8F2B94A9E7006881EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFAFFA8E2B94A9E7006881EC /* Assets.xcassets */; };
 		AFAFFA922B94A9E7006881EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAFFA902B94A9E7006881EC /* LaunchScreen.storyboard */; };
 		AFAFFA9D2B94A9E7006881EC /* WatchBandSelectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAFFA9C2B94A9E7006881EC /* WatchBandSelectionTests.swift */; };
 		AFAFFAA72B94A9E7006881EC /* WatchBandSelectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAFFAA62B94A9E7006881EC /* WatchBandSelectionUITests.swift */; };
 		AFAFFAA92B94A9E7006881EC /* WatchBandSelectionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAFFAA82B94A9E7006881EC /* WatchBandSelectionUITestsLaunchTests.swift */; };
+		AFAFFAB72B94AA0E006881EC /* WatchBandSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAFFAB52B94AA0E006881EC /* WatchBandSelectionVC.swift */; };
+		AFAFFAB82B94AA0E006881EC /* WatchBandSelectionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFAFFAB62B94AA0E006881EC /* WatchBandSelectionVC.xib */; };
+		AFDAAA662B99EB2D00DD867B /* WatchCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDAAA642B99EB2D00DD867B /* WatchCVC.swift */; };
+		AFDAAA672B99EB2D00DD867B /* WatchCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFDAAA652B99EB2D00DD867B /* WatchCVC.xib */; };
+		AFDAAA692B99EBEF00DD867B /* WatchDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDAAA682B99EBEF00DD867B /* WatchDM.swift */; };
+		AFDAAA6B2B99F32000DD867B /* Ex+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDAAA6A2B99F32000DD867B /* Ex+String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +41,6 @@
 /* Begin PBXFileReference section */
 		AFAFFA822B94A9E4006881EC /* WatchBandSelection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchBandSelection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFAFFA852B94A9E4006881EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AFAFFA872B94A9E4006881EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AFAFFA892B94A9E4006881EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AFAFFA8C2B94A9E4006881EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFAFFA8E2B94A9E7006881EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFAFFA912B94A9E7006881EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFAFFA932B94A9E7006881EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +49,12 @@
 		AFAFFAA22B94A9E7006881EC /* WatchBandSelectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchBandSelectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFAFFAA62B94A9E7006881EC /* WatchBandSelectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchBandSelectionUITests.swift; sourceTree = "<group>"; };
 		AFAFFAA82B94A9E7006881EC /* WatchBandSelectionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchBandSelectionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AFAFFAB52B94AA0E006881EC /* WatchBandSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchBandSelectionVC.swift; sourceTree = "<group>"; };
+		AFAFFAB62B94AA0E006881EC /* WatchBandSelectionVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WatchBandSelectionVC.xib; sourceTree = "<group>"; };
+		AFDAAA642B99EB2D00DD867B /* WatchCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchCVC.swift; sourceTree = "<group>"; };
+		AFDAAA652B99EB2D00DD867B /* WatchCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WatchCVC.xib; sourceTree = "<group>"; };
+		AFDAAA682B99EBEF00DD867B /* WatchDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchDM.swift; sourceTree = "<group>"; };
+		AFDAAA6A2B99F32000DD867B /* Ex+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+String.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +106,15 @@
 			isa = PBXGroup;
 			children = (
 				AFAFFA852B94A9E4006881EC /* AppDelegate.swift */,
-				AFAFFA872B94A9E4006881EC /* SceneDelegate.swift */,
-				AFAFFA892B94A9E4006881EC /* ViewController.swift */,
-				AFAFFA8B2B94A9E4006881EC /* Main.storyboard */,
 				AFAFFA8E2B94A9E7006881EC /* Assets.xcassets */,
 				AFAFFA902B94A9E7006881EC /* LaunchScreen.storyboard */,
 				AFAFFA932B94A9E7006881EC /* Info.plist */,
+				AFAFFAB52B94AA0E006881EC /* WatchBandSelectionVC.swift */,
+				AFAFFAB62B94AA0E006881EC /* WatchBandSelectionVC.xib */,
+				AFDAAA642B99EB2D00DD867B /* WatchCVC.swift */,
+				AFDAAA652B99EB2D00DD867B /* WatchCVC.xib */,
+				AFDAAA682B99EBEF00DD867B /* WatchDM.swift */,
+				AFDAAA6A2B99F32000DD867B /* Ex+String.swift */,
 			);
 			path = WatchBandSelection;
 			sourceTree = "<group>";
@@ -232,8 +241,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFAFFA922B94A9E7006881EC /* LaunchScreen.storyboard in Resources */,
+				AFDAAA672B99EB2D00DD867B /* WatchCVC.xib in Resources */,
+				AFAFFAB82B94AA0E006881EC /* WatchBandSelectionVC.xib in Resources */,
 				AFAFFA8F2B94A9E7006881EC /* Assets.xcassets in Resources */,
-				AFAFFA8D2B94A9E4006881EC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFAFFA8A2B94A9E4006881EC /* ViewController.swift in Sources */,
+				AFDAAA692B99EBEF00DD867B /* WatchDM.swift in Sources */,
+				AFDAAA662B99EB2D00DD867B /* WatchCVC.swift in Sources */,
+				AFAFFAB72B94AA0E006881EC /* WatchBandSelectionVC.swift in Sources */,
+				AFDAAA6B2B99F32000DD867B /* Ex+String.swift in Sources */,
 				AFAFFA862B94A9E4006881EC /* AppDelegate.swift in Sources */,
-				AFAFFA882B94A9E4006881EC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +309,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AFAFFA8B2B94A9E4006881EC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AFAFFA8C2B94A9E4006881EC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AFAFFA902B94A9E7006881EC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,7 +451,7 @@
 				INFOPLIST_FILE = WatchBandSelection/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,7 +479,7 @@
 				INFOPLIST_FILE = WatchBandSelection/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
